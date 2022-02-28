@@ -1,0 +1,8 @@
+{
+  "parent": "medusa:custom/stonecow",
+  "textures": {
+    "all": "medusa:blocks/stone-cow-on-planetminecraft-com",
+    "particle": "medusa:blocks/stone-cow-on-planetminecraft-com",
+    "0": "medusa:blocks/stone-cow-on-planetminecraft-com"
+  }
+}

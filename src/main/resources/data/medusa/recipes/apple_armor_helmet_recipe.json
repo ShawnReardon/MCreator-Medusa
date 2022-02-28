@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:apple"
+    },
+    "1": {
+      "item": "minecraft:apple"
+    },
+    "2": {
+      "item": "minecraft:apple"
+    },
+    "3": {
+      "item": "minecraft:apple"
+    },
+    "5": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "medusa:apple_armor_helmet",
+    "count": 1
+  }
+}

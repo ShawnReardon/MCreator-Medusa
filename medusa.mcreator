@@ -1,0 +1,111 @@
+{
+  "mod_elements": [
+    {
+      "name": "AppleArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AppleArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor_helmet_recipe"
+    },
+    {
+      "name": "AppleArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor_body_recipe"
+    },
+    {
+      "name": "AppleArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor_leggings_recipe"
+    },
+    {
+      "name": "AppleArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor_boots_recipe"
+    },
+    {
+      "name": "AppleArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneCow",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_cow"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.medusa.apple_armor_boots": "Apple Boots",
+      "block.medusa.stone_cow": "Stone Cow",
+      "item.medusa.apple_armor_leggings": "Apple Leggings",
+      "item.medusa.apple_armor_helmet": "Apple Helmet",
+      "item.medusa.apple_armor_chestplate": "Apple Chestplate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "medusa",
+    "modName": "Medusa",
+    "version": "1.0.0",
+    "author": "shawn, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.medusa",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

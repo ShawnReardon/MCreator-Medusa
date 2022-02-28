@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "medusa:block/stone_cow"
+    }
+  }
+}
